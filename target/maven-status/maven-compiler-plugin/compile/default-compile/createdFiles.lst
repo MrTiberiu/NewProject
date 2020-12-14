@@ -1,0 +1,12 @@
+docker/file/JAXRSConfiguration.class
+servlets/AbstractAppServlet.class
+docker/file/JavaEE8Resource.class
+models/UserModel.class
+servlets/RequestUserNameFromDb.class
+models/RegisterModel.class
+tools/repository/LoginDao.class
+servlets/LoginServlet.class
+tools/repository/RegisterDao.class
+servlets/LogoutServlet.class
+servlets/RegisterServlet.class
+tools/DbTool.class
