@@ -79,9 +79,9 @@ public final class DbTool {
     public static Connection dbLoggIn() {
 
         Connection con = null;
-        String url = "jdbc:mariadb://172.17.0.1:3308/DB7"; //MySQL URL and followed by the database name
-        String username = "root"; //MySQL username
-        String password = "12345"; //MySQL password
+        String url = "jdbc:mariadb://172.17.0.1:3308/DB1"; //MariaDB URL and followed by the database name
+        String username = "root"; //MariaDb username
+        String password = "12345"; //MariaDB password
         try
         {
             try

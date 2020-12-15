@@ -25,7 +25,7 @@
     </script>
 </head>
 <body>
-<div style="text-align:center"><h1>Login application in Java using MVC and MySQL </h1> </div>
+<div style="text-align:center"><h1>Norges Roforbund </h1> </div>
 <br>
 <form name="form" action="${pageContext.request.contextPath}\LoginServlet" method="post" onsubmit="return validate()">
     <!-- Do not use table to format fields. As a good practice use CSS -->
@@ -44,17 +44,19 @@
         </tr>
 
         <tr>
-            <a href="Register.jsp">Har ikke bruker? Trykk her!</a>
+            <a href="Register.jsp">Har ikke en bruker? Trykk her!</a>
         </tr>
 
 
         <tr>
             <td></td>
             <td><input type="submit" value="Login"></input><input
-                    type="reset" value="Reset"></input></td>
+                    type="reset" value="Nullstil"></input></td>
         </tr>
     </table>
 </form>
+
+
 <!-- <p>Click here to send a request for a user.
     <a href="RequestUserNameFromDb">get user</a></p>>
 -->
