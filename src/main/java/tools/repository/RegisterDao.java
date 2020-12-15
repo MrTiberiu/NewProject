@@ -22,7 +22,7 @@ public class RegisterDao {
         try {
             con = DbTool.dbLoggIn();
             //Insert user details into the table 'USERS'
-            String query = "INSERT INTO users(userID,fullName,email,userName,password) VALUES (NULL,?,?,?,?)";
+            String query = "INSERT INTO user(userID,fullName,email,userName,password) VALUES (NULL,?,?,?,?)";
             preparedStatement = con.prepareStatement(query);
             preparedStatement.setString(1, fullName);
             preparedStatement.setString(2, email);

@@ -19,8 +19,8 @@ public class LoginDao {
 
         try {
             con = DbTool.dbLoggIn(); //Fetch database connection object
-            statement = con.createStatement(); //Statement is used to write queries. Read more about it.
-            resultSet = statement.executeQuery("SELECT userName, password FROM users"); //the table name is users and userName,password are columns. Fetching all the records and storing in a resultSet.
+            statement = con.createStatement(); //Statement is used to write queries.
+            resultSet = statement.executeQuery("SELECT userName, password FROM user"); //the table name is users and userName,password are columns. Fetching all the records and storing in a resultSet.
 
             while (resultSet.next()) // Until next row is present otherwise it return false
             {
